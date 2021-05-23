@@ -24,7 +24,9 @@ h2,
 h1,
 blockquote {
     font-size: 60px;
-    font-family: elevon, sans-serif;
+    font-family: product-sans, sans-serif;
+    background-color: deeppink;
+    padding: 10px 10px 10px 10px;
 }
 
 header {
@@ -36,6 +38,12 @@ section {
     grid-column: 2 / 8;
 }
 
+h1 {
+    grid-column: 4/ span 5;
+}
+
 blockquote {
     grid-column: 2/ span 9;
+    background-color: #52b900;
+    font-weight: bolder;
 }
