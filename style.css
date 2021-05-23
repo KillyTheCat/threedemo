@@ -1,0 +1,41 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main {
+    position: absolute;
+    color: wheat;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20%;
+    padding-right: 30%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+p {
+    font-size: 30px;
+}
+
+h3,
+h2,
+h1,
+blockquote {
+    font-size: 60px;
+    font-family: elevon, sans-serif;
+}
+
+header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+}
+
+section {
+    grid-column: 2 / 8;
+}
+
+blockquote {
+    grid-column: 2/ span 9;
+}
